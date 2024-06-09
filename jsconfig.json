@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"],
+      "@api/*": ["./src/app/api/*"],
+      "@auth/*": ["./src/app/auth.js"] // Add this line to include the missing file
+    }
+  }
+}
